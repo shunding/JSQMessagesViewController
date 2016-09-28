@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:/Users/shunding/Developer/JSQMessagesViewController/JSQMessagesFramework/JSQMessagesViewController.xcodeproj">
+      location = "group:JSQMessagesViewController.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:JSQMessages.xcodeproj">
