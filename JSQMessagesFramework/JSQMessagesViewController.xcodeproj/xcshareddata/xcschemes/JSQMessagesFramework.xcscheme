@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "777873011D9C16A0006E9B6D"
-               BuildableName = "JSQMessagesFramework.framework"
-               BlueprintName = "JSQMessagesFramework"
-               ReferencedContainer = "container:JSQMessagesFramework.xcodeproj">
+               BuildableName = "JSQMessagesViewController.framework"
+               BlueprintName = "JSQMessagesViewController"
+               ReferencedContainer = "container:JSQMessagesViewController.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -46,9 +46,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "777873011D9C16A0006E9B6D"
-            BuildableName = "JSQMessagesFramework.framework"
-            BlueprintName = "JSQMessagesFramework"
-            ReferencedContainer = "container:JSQMessagesFramework.xcodeproj">
+            BuildableName = "JSQMessagesViewController.framework"
+            BlueprintName = "JSQMessagesViewController"
+            ReferencedContainer = "container:JSQMessagesViewController.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -64,9 +64,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "777873011D9C16A0006E9B6D"
-            BuildableName = "JSQMessagesFramework.framework"
-            BlueprintName = "JSQMessagesFramework"
-            ReferencedContainer = "container:JSQMessagesFramework.xcodeproj">
+            BuildableName = "JSQMessagesViewController.framework"
+            BlueprintName = "JSQMessagesViewController"
+            ReferencedContainer = "container:JSQMessagesViewController.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

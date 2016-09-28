@@ -101,7 +101,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		777873021D9C16A0006E9B6D /* JSQMessagesFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JSQMessagesFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		777873021D9C16A0006E9B6D /* JSQMessagesViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JSQMessagesViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		777873051D9C16A0006E9B6D /* JSQMessagesFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSQMessagesFramework.h; sourceTree = "<group>"; };
 		777873061D9C16A0006E9B6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7778730D1D9C16C6006E9B6D /* JSQMessagesAssets.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = JSQMessagesAssets.bundle; sourceTree = "<group>"; };
@@ -219,7 +219,7 @@
 		777873031D9C16A0006E9B6D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				777873021D9C16A0006E9B6D /* JSQMessagesFramework.framework */,
+				777873021D9C16A0006E9B6D /* JSQMessagesViewController.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -447,9 +447,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		777873011D9C16A0006E9B6D /* JSQMessagesFramework */ = {
+		777873011D9C16A0006E9B6D /* JSQMessagesViewController */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7778730A1D9C16A0006E9B6D /* Build configuration list for PBXNativeTarget "JSQMessagesFramework" */;
+			buildConfigurationList = 7778730A1D9C16A0006E9B6D /* Build configuration list for PBXNativeTarget "JSQMessagesViewController" */;
 			buildPhases = (
 				777872FD1D9C16A0006E9B6D /* Sources */,
 				777872FE1D9C16A0006E9B6D /* Frameworks */,
@@ -460,9 +460,9 @@
 			);
 			dependencies = (
 			);
-			name = JSQMessagesFramework;
+			name = JSQMessagesViewController;
 			productName = JSQMessagesFramework;
-			productReference = 777873021D9C16A0006E9B6D /* JSQMessagesFramework.framework */;
+			productReference = 777873021D9C16A0006E9B6D /* JSQMessagesViewController.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -480,7 +480,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 777872FC1D9C16A0006E9B6D /* Build configuration list for PBXProject "JSQMessagesFramework" */;
+			buildConfigurationList = 777872FC1D9C16A0006E9B6D /* Build configuration list for PBXProject "JSQMessagesViewController" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -492,7 +492,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				777873011D9C16A0006E9B6D /* JSQMessagesFramework */,
+				777873011D9C16A0006E9B6D /* JSQMessagesViewController */,
 			);
 		};
 /* End PBXProject section */
@@ -695,7 +695,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		777872FC1D9C16A0006E9B6D /* Build configuration list for PBXProject "JSQMessagesFramework" */ = {
+		777872FC1D9C16A0006E9B6D /* Build configuration list for PBXProject "JSQMessagesViewController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				777873081D9C16A0006E9B6D /* Debug */,
@@ -704,7 +704,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7778730A1D9C16A0006E9B6D /* Build configuration list for PBXNativeTarget "JSQMessagesFramework" */ = {
+		7778730A1D9C16A0006E9B6D /* Build configuration list for PBXNativeTarget "JSQMessagesViewController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7778730B1D9C16A0006E9B6D /* Debug */,
