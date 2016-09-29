@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		777873071D9C16A0006E9B6D /* JSQMessagesFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 777873051D9C16A0006E9B6D /* JSQMessagesFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		777873071D9C16A0006E9B6D /* JSQMessagesViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 777873051D9C16A0006E9B6D /* JSQMessagesViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7778742B1D9C1870006E9B6D /* JSQMessagesAssets.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 777873C91D9C1870006E9B6D /* JSQMessagesAssets.bundle */; };
 		7778742C1D9C1870006E9B6D /* NSBundle+JSQMessages.h in Headers */ = {isa = PBXBuildFile; fileRef = 777873CB1D9C1870006E9B6D /* NSBundle+JSQMessages.h */; };
 		7778742D1D9C1870006E9B6D /* NSBundle+JSQMessages.m in Sources */ = {isa = PBXBuildFile; fileRef = 777873CC1D9C1870006E9B6D /* NSBundle+JSQMessages.m */; };
@@ -102,7 +102,7 @@
 
 /* Begin PBXFileReference section */
 		777873021D9C16A0006E9B6D /* JSQMessagesViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JSQMessagesViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		777873051D9C16A0006E9B6D /* JSQMessagesFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSQMessagesFramework.h; sourceTree = "<group>"; };
+		777873051D9C16A0006E9B6D /* JSQMessagesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSQMessagesViewController.h; sourceTree = "<group>"; };
 		777873061D9C16A0006E9B6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		777873C91D9C1870006E9B6D /* JSQMessagesAssets.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = JSQMessagesAssets.bundle; sourceTree = "<group>"; };
 		777873CB1D9C1870006E9B6D /* NSBundle+JSQMessages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+JSQMessages.h"; sourceTree = "<group>"; };
@@ -227,7 +227,7 @@
 		777873041D9C16A0006E9B6D /* JSQMessagesFramework */ = {
 			isa = PBXGroup;
 			children = (
-				777873051D9C16A0006E9B6D /* JSQMessagesFramework.h */,
+				777873051D9C16A0006E9B6D /* JSQMessagesViewController.h */,
 				777873061D9C16A0006E9B6D /* Info.plist */,
 			);
 			name = JSQMessagesFramework;
@@ -440,7 +440,7 @@
 				7778743B1D9C1870006E9B6D /* JSQMessagesBubbleImageFactory.h in Headers */,
 				777874551D9C1870006E9B6D /* JSQMessage.h in Headers */,
 				777874601D9C1870006E9B6D /* JSQMessagesCollectionViewDelegateFlowLayout.h in Headers */,
-				777873071D9C16A0006E9B6D /* JSQMessagesFramework.h in Headers */,
+				777873071D9C16A0006E9B6D /* JSQMessagesViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
