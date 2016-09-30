@@ -14,7 +14,7 @@ FOUNDATION_EXPORT double JSQMessagesFrameworkVersionNumber;
 //! Project version string for JSQMessagesFramework.
 FOUNDATION_EXPORT const unsigned char JSQMessagesFrameworkVersionString[];
 
-#import "JSQMessages.h"
+#import <JSQMessagesViewController/JSQMessages.h>
 
 // In this header, you should import all the public headers of your framework using statements like #import <JSQMessagesFramework/PublicHeader.h>
 
