@@ -50,7 +50,7 @@
 		777874521D9C1870006E9B6D /* JSQLocationMediaItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 777873F51D9C1870006E9B6D /* JSQLocationMediaItem.m */; };
 		777874531D9C1870006E9B6D /* JSQMediaItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 777873F61D9C1870006E9B6D /* JSQMediaItem.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		777874541D9C1870006E9B6D /* JSQMediaItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 777873F71D9C1870006E9B6D /* JSQMediaItem.m */; };
-		777874551D9C1870006E9B6D /* JSQMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 777873F81D9C1870006E9B6D /* JSQMessage.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		777874551D9C1870006E9B6D /* JSQMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 777873F81D9C1870006E9B6D /* JSQMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		777874561D9C1870006E9B6D /* JSQMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 777873F91D9C1870006E9B6D /* JSQMessage.m */; };
 		777874571D9C1870006E9B6D /* JSQMessageAvatarImageDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 777873FA1D9C1870006E9B6D /* JSQMessageAvatarImageDataSource.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		777874581D9C1870006E9B6D /* JSQMessageBubbleImageDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 777873FB1D9C1870006E9B6D /* JSQMessageBubbleImageDataSource.h */; settings = {ATTRIBUTES = (Private, ); }; };
@@ -395,6 +395,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				777874781D9C1870006E9B6D /* JSQMessagesLoadEarlierHeaderView.h in Headers */,
+				777874551D9C1870006E9B6D /* JSQMessage.h in Headers */,
 				777874461D9C1870006E9B6D /* JSQMessagesBubbleSizeCalculating.h in Headers */,
 				777874721D9C1870006E9B6D /* JSQMessagesComposerTextView.h in Headers */,
 				777874411D9C1870006E9B6D /* JSQMessagesToolbarButtonFactory.h in Headers */,
@@ -438,7 +439,6 @@
 				777874681D9C1870006E9B6D /* JSQMessagesCollectionView.h in Headers */,
 				777874361D9C1870006E9B6D /* JSQMessagesViewController.h in Headers */,
 				7778743B1D9C1870006E9B6D /* JSQMessagesBubbleImageFactory.h in Headers */,
-				777874551D9C1870006E9B6D /* JSQMessage.h in Headers */,
 				777874601D9C1870006E9B6D /* JSQMessagesCollectionViewDelegateFlowLayout.h in Headers */,
 				777873071D9C16A0006E9B6D /* JSQMessagesViewController.h in Headers */,
 			);
@@ -661,7 +661,7 @@
 		7778730B1D9C16A0006E9B6D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -679,7 +679,7 @@
 		7778730C1D9C16A0006E9B6D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
